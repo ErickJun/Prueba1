@@ -1,6 +1,10 @@
+import { numeros } from "./dato.js"
 
-
-export function suma(numeros){
-return numeros.reduce((total, num) => total + num,0);
+export const suma = (numeros) => {
+let suma = 0;
+    for (let i = 0; i < numeros.length; i++) {
+        suma += numeros[i];
+    }
+    
+    return suma;
 }
-
