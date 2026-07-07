@@ -1,3 +1,3 @@
-//export function menor(numeros){
-//    return Math.min(...numeros);
-//}
+export function menor(numeros){
+    return Math.min(...numeros);
+}
