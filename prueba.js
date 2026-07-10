@@ -1,13 +1,10 @@
+import { numeros } from "./dato.js";
 import { suma } from "./suma.js";
 import { promedio } from "./promedio.js";
 import { mayor } from "./mayor.js";
-import { menor } from "./mayor.js";
-import { pares } from "./mayor.js";
+import { menor } from "./menor.js";
+import { pares } from "./pares.js";
 //Arreglo
-
-const numeros = [12 , 14, 15, 30, 20, 7]
-
-
 
 console.log("Suma es: ",suma(numeros));
 console.log("Promedio es: ",promedio(numeros)); 
