@@ -1,3 +1,1 @@
-//export function menor(numeros){
-//    return Math.min(...numeros);
-//}
+export const menor = (numeros) => Math.min(...numeros);
