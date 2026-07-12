@@ -1,10 +1,10 @@
-import { numeros } from "./dato.js"
+import { numeros } from "./dato.js";
+ let total=0;
+
 
 export const suma = (numeros) => {
-let suma = 0;
-    for (let i = 0; i < numeros.length; i++) {
-        suma += numeros[i];
-    }
-    
-    return suma;
+   for(let i=0;i<numeros.length;i++){
+      total+=numeros[i];
+   }
+   return total;
 }

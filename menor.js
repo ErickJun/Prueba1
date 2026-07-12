@@ -1,3 +1,3 @@
-export function menor(numeros){
-    return Math.min(...numeros);
-}
+//Desglosa los numeros del array
+
+export const menor = (numeros) => Math.min(...numeros);
