@@ -1,5 +1,2 @@
-export function mayor(numeros){
-    return Math.max(...numeros);
-}
-
-
+//Desglosa los numeros del array
+export const mayor = (numeros) => Math.max(...numeros);
